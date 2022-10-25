@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8a69cc1204.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">TODO-LIST</h1>
+      </header>
+      <main class="main">
+        <div class="side-bar">
+          <h2 class="side-bar-title">
+            Projects
+            <button class="side-bar-add-project">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </h2>
+          <ul class="side-bar-projects">
+            <li class="side-bar-project side-bar-project-active">
+              Home
+              <span class="side-bar-project-counter">0</span>
+            </li>
+            <li class="side-bar-project">
+              Freedom <span class="side-bar-project-counter">1</span>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <h2 class="content-title">
+            Tasks
+            <button class="content-add-project">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </h2>
+          <div class="content-main">
+            <ul class="content-main-tasks">
+              <li class="content-main-task content-main-task-high">
+                <i class="fa-regular fa-circle"></i> Learn React
+                <i class="fa-solid fa-circle priority-high"></i>
+              </li>
+              <li class="content-main-task content-main-task-done">
+                <i class="fa-regular fa-circle-check"></i> Learn NodeJS
+                <i class="fa-solid fa-circle priority-medium"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaspir/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djaspir/todo-list/issues"
+  },
+  "homepage": "https://github.com/djaspir/todo-list#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "wepback": "^1.0.0"
+  }
+}
