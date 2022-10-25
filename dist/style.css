@@ -57,11 +57,13 @@ ul {
 }
 
 .side-bar-add-project,
-.content-add-project {
-  border-radius: 100px;
+.content-add-task {
+  display: block;
+  border-radius: 8px;
   background: none;
-  padding: 3px 5px;
-  border: 2px solid #000;
+  padding: 3px 6px;
+  border: 1px solid #000;
+  margin: 12px auto;
 }
 
 .content {
@@ -88,7 +90,7 @@ ul {
 .content-main-task:hover,
 .side-bar-project:hover,
 .side-bar-add-project,
-.content-add-project {
+.content-add-task {
   /* border: 1px solid #000;
   border-radius: 8px; */
   cursor: pointer;
@@ -101,6 +103,11 @@ ul {
 
 .content-main-task > .fa-solid {
   float: right;
+}
+
+.task-date {
+  float: right;
+  margin-right: 12px;
 }
 
 .priority-high {

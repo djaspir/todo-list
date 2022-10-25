@@ -24,12 +24,7 @@
       </header>
       <main class="main">
         <div class="side-bar">
-          <h2 class="side-bar-title">
-            Projects
-            <button class="side-bar-add-project">
-              <i class="fa-solid fa-plus"></i>
-            </button>
-          </h2>
+          <h2 class="side-bar-title">Projects</h2>
           <ul class="side-bar-projects">
             <li class="side-bar-project side-bar-project-active">
               Home
@@ -38,24 +33,33 @@
             <li class="side-bar-project">
               Freedom <span class="side-bar-project-counter">1</span>
             </li>
+            <li>
+              <button class="side-bar-add-project">
+                <i class="fa-solid fa-plus"></i>
+                Add new project
+              </button>
+            </li>
           </ul>
         </div>
         <div class="content">
-          <h2 class="content-title">
-            Tasks
-            <button class="content-add-project">
-              <i class="fa-solid fa-plus"></i>
-            </button>
-          </h2>
+          <h2 class="content-title">Tasks</h2>
           <div class="content-main">
             <ul class="content-main-tasks">
               <li class="content-main-task content-main-task-high">
                 <i class="fa-regular fa-circle"></i> Learn React
                 <i class="fa-solid fa-circle priority-high"></i>
+                <span class="task-date">11/12/2014</span>
               </li>
               <li class="content-main-task content-main-task-done">
                 <i class="fa-regular fa-circle-check"></i> Learn NodeJS
                 <i class="fa-solid fa-circle priority-medium"></i>
+                <span class="task-date">11/12/2013</span>
+              </li>
+              <li>
+                <button class="content-add-task">
+                  <i class="fa-solid fa-plus"></i>
+                  Add new task
+                </button>
               </li>
             </ul>
           </div>
