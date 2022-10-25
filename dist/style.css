@@ -20,7 +20,8 @@ ul {
 .main,
 .side-bar-title,
 .side-bar-project,
-.content-title {
+.content-title,
+.add-task-form {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,14 +57,15 @@ ul {
   padding: 6px 12px 6px 18px;
 }
 
-.side-bar-add-project,
-.content-add-task {
+.side-bar-project-btn,
+.content-task-btn {
   display: block;
   border-radius: 8px;
   background: none;
   padding: 3px 6px;
   border: 1px solid #000;
-  margin: 12px auto;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .content {
@@ -80,7 +82,7 @@ ul {
 }
 
 .content-main-task {
-  padding: 6px 24px;
+  padding: 6px 0;
 }
 
 .content-main-task-done {
@@ -88,9 +90,7 @@ ul {
 }
 
 .content-main-task:hover,
-.side-bar-project:hover,
-.side-bar-add-project,
-.content-add-task {
+.side-bar-project:hover {
   /* border: 1px solid #000;
   border-radius: 8px; */
   cursor: pointer;
@@ -120,4 +120,11 @@ ul {
 
 .priority-low {
   color: green;
+}
+
+.add-task-input {
+  width: 50%;
+  padding: 3px 12px;
+  border: none;
+  border-bottom: 1px solid #000;
 }

@@ -33,8 +33,8 @@
             <li class="side-bar-project">
               Freedom <span class="side-bar-project-counter">1</span>
             </li>
-            <li>
-              <button class="side-bar-add-project">
+            <li class="side-bar-project">
+              <button class="side-bar-project-btn">
                 <i class="fa-solid fa-plus"></i>
                 Add new project
               </button>
@@ -55,12 +55,27 @@
                 <i class="fa-solid fa-circle priority-medium"></i>
                 <span class="task-date">11/12/2013</span>
               </li>
-              <li>
-                <button class="content-add-task">
+              <li class="content-main-task">
+                <form action="" method="post" class="add-task-form">
+                  <i class="fa-regular fa-circle"></i>
+                  <input
+                    type="text"
+                    class="add-task-input"
+                    placeholder="Add New Task"
+                  />
+                  <input type="date" name="" id="" />
+                  <select name="" id="">
+                    <option value="default">Priority</option>
+                  </select>
+                  <button type="submit">Submit</button>
+                </form>
+              </li>
+              <!-- <li>
+                <button class="content-task-btn" id="newTaskBtn">
                   <i class="fa-solid fa-plus"></i>
                   Add new task
                 </button>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
